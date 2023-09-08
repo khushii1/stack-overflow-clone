@@ -248,7 +248,7 @@ const QuestionsDetails = () => {
                     <div className="question-votes">
                       <img
                         src={upvote}
-                        alt=""
+                        alt="image"
                         width="18"
                         className="votes-icon"
                         onClick={handleUpVote}
@@ -260,7 +260,7 @@ const QuestionsDetails = () => {
                       </p>
                       <img
                         src={downvote}
-                        alt=""
+                        alt="img2"
                         width="18"
                         className="votes-icon"
                         onClick={handleDownVote}
