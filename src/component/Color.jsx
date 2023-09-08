@@ -12,7 +12,7 @@ const Color = () => {
 
     const [lat, setLat] = useState([]);
     const [long, setLong] = useState([]);
-    const [data, setData] = useState([]);
+    //const [data, setData] = useState([]);
   
     useEffect(() => {
       const fetchData = async () => {
