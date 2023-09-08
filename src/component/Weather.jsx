@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from 'react';
+import React, { useState} from 'react';
 
 
 export default function Weather() {
@@ -26,25 +26,25 @@ export default function Weather() {
           console.log(data.weather[0].main);
           let weather_condition = data.weather[0].main;
 
-          if(weather_condition == 'Clouds'){
+          if(weather_condition === 'Clouds'){
                 let root = document.querySelector('#root');
                 root.style.backgroundColor = 'rgb(88, 94, 90)'; 
           }
 
           
-          if(weather_condition == 'Scattered Thunderstorms'){
+          if(weather_condition === 'Scattered Thunderstorms'){
             let root = document.querySelector('#root');
             root.style.backgroundColor = 'rgb(88, 94, 190)'; 
       }
 
       
-      if(weather_condition == 'Sunny'){
+      if(weather_condition === 'Sunny'){
         let root = document.querySelector('#root');
         root.style.backgroundColor = 'white'; 
         
   }
 
-  if(weather_condition == 'Haze'){
+  if(weather_condition === 'Haze'){
     let root = document.querySelector('#root');
     root.style.backgroundColor = 'rgb(88, 94, 190)'; 
     
