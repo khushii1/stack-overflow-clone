@@ -1,7 +1,7 @@
 import React from 'react'
 import './plan.css';
-import { applyMiddleware } from 'redux';
-import { useNavigate, redirect } from 'react-router-dom';
+//import { applyMiddleware } from 'redux';
+import { useNavigate } from 'react-router-dom';
 const Plan = () => {
   const navigate=useNavigate();
 
